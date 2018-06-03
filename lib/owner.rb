@@ -30,11 +30,7 @@ class Owner
   end 
   
   def walk_dogs
-    @pets.each do |species, pet|
-      if pet.is_a?(Dog)
-        pet.mood = "happy"
-      end 
-    end 
+    
   end 
   
   def self.all
