@@ -9,7 +9,7 @@ class Owner
   end 
   
   def buy_cat(name)
-    cat = 
+    cat = Cat.new(name)
   end 
   
   def self.all
