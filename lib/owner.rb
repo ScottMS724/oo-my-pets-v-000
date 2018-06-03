@@ -50,6 +50,12 @@ class Owner
   def sell_pets 
     self.pets[:cats].each do |cat|
       cat.mood = "nervous"
+    end 
+    self.pets[:dogs].each do |dog|
+      dog.mood = "nervous"
+    end 
+    self.pets[:fishes].each do |fish|
+      fish.mood = "nervous"
   
   def self.all
     @@all 
