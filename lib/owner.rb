@@ -63,6 +63,7 @@ class Owner
   def list_pets 
     self.pets.each do |species, pets|
       pets.name 
+    end 
   end 
   
   def self.all
