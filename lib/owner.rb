@@ -10,7 +10,7 @@ class Owner
   
   def buy_cat(name)
     cat = Cat.new(name)
-    @pets[]
+    @pets[1] << cat 
   end 
   
   def self.all
