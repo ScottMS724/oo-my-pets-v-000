@@ -30,7 +30,8 @@ class Owner
   end 
   
   def walk_dogs
-    
+    @pets.each do |species, pet|
+      if pet = Dog 
   end 
   
   def self.all
