@@ -64,6 +64,7 @@ class Owner
     self.pets.each do |species, animal|
       animal.each do |name|
         name.name 
+      end 
     end 
   end 
   
