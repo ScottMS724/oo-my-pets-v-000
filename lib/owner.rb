@@ -31,7 +31,7 @@ class Owner
   
   def walk_dogs
     @pets.each do |species, pet|
-      if pet.instance_of?()
+      if pet
   end 
   
   def self.all
