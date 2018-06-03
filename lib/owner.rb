@@ -31,7 +31,10 @@ class Owner
   
   def walk_dogs
     @pets.each do |species, pet|
-      if pet.instance_of?
+      if pet.instance_of? Dog
+        pet.mood = "happy"
+      end 
+    end 
   end 
   
   def self.all
