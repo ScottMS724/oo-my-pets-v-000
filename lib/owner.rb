@@ -1,6 +1,6 @@
 class Owner
   @@all = []
-  attr_accessor :name, :pets 
+  attr_accessor :name, :pets, :species
   
   def initialize(name)
     @name = name 
