@@ -48,8 +48,8 @@ class Owner
   end 
   
   def sell_pets 
-    self.pets.each do |type, pets|
-      pets.mood = "nervous"
+    self.pets.each do |type, animal|
+      animal.mood = "nervous"
     end 
   end 
   
