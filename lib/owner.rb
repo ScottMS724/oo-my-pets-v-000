@@ -6,7 +6,7 @@ class Owner
     @name = name 
     @@all << self 
     @pets = {fishes: [], cats: [], dogs: []}
-    
+    @species = "human"
   end 
   
   def buy_cat(name)
