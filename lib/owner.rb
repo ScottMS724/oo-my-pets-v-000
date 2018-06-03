@@ -57,6 +57,7 @@ class Owner
     self.pets[:fishes].each do |fish|
       fish.mood = "nervous"
     end 
+    self.pets.clear 
   end 
   
   def self.all
