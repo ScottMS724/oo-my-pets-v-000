@@ -30,7 +30,7 @@ class Owner
   end 
   
   def walk_dogs
-    self.pets 
+    self.pets[:dogs]
   end 
   
   def self.all
